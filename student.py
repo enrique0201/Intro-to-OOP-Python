@@ -61,9 +61,27 @@ class Library:
             print(f'{member.name}did not borrow {book.title}')  
             
              
+book1 = Book('Kiss of the Spider Woman', 'My Brilliant Friend')
+book2 = Book('Titanic','Labyrinths')
 
+member1 = Member('Enrique',101)
+member2 = Member('Sean',102)
 
+library = Library()
 
+library.add_book (book1)
+library.add_book(book2)
+
+library.register_member(member1)
+library.register_member(member2)
+
+library.lend_book(book1, member1)
+
+library.lend_book(book2, member2)
+
+library.return_book(book1, member1)
+
+library.return_book(book1, member2)
 
 
 
