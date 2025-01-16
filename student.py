@@ -62,7 +62,7 @@ class Library:
             
              
 book1 = Book('Kiss of the Spider Woman', 'My Brilliant Friend')
-book2 = Book('Nosferatu','Labyrinths')
+book2 = Book('Titanic','Labyrinths')
 
 member1 = Member('Enrique',101)
 member2 = Member('Sean',102)
